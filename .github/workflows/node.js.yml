@@ -36,6 +36,7 @@ jobs:
               git config --global user.email u2017355@giki.edu.pk
               git remote set-url origin https://${github_token}@github.com/${repository}
               npm run deploy
+              working-directory: first_react_app
       env:
           user_name: 'Muzamilali2017355'
           user_email: 'u2017355@giki.edu.pk'
