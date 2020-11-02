@@ -30,7 +30,7 @@ jobs:
       working-directory: first_react_app
     - run: npm test
       working-directory: first_react_app
-    - name: Deploy
+    - name: master
       run: |
               git config --global user.name Muzamilali2017355
               git config --global user.email u2017355@giki.edu.pk
